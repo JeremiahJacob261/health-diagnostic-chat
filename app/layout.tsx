@@ -14,6 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Chat Based Medical Diagnosis Program</title>
+        <meta name="description" content="Chat Based Medical Diagnosis Program built by Ibrahim Rahmon for CSC 320 Project" />
+      </head>
       <body>{children}</body>
     </html>
   )

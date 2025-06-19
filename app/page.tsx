@@ -144,7 +144,7 @@ export default function BioChatApp() {
     <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-slate-50 to-slate-100 p-4">
       <Card className="w-full max-w-4xl shadow-lg">
         <CardHeader className="bg-teal-600 text-white">
-          <CardTitle className="text-2xl">BioChatApp</CardTitle>
+          <CardTitle className="text-2xl">Chat Based Medical Diagnosis Program</CardTitle>
           <CardDescription className="text-teal-100">
             {currentStage === "COMPLETE"
               ? "Review your diagnostic results"
@@ -305,9 +305,8 @@ export default function BioChatApp() {
               {/* Disclaimer */}
               <div className="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded-md">
                 <p className="text-xs text-yellow-800">
-                  <strong>Disclaimer:</strong> This is for informational purposes only and should not replace
-                  professional medical advice. Please consult a healthcare provider for proper diagnosis and treatment.
-                </p>
+                  Consult with a pharmacist or healthcare professional for drug prescription and advice.
+                   </p>
               </div>
             </div>
           )}
