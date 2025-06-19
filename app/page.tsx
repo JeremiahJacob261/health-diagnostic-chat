@@ -134,7 +134,7 @@ export default function BioChatApp() {
       case "GENDER":
         return "What is your gender?"
       case "SYMPTOMS":
-        return "Select all symptoms you are experiencing:"
+        return "Select atleast 4 symptoms you are experiencing:"
       default:
         return ""
     }

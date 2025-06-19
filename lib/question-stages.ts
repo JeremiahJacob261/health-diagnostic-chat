@@ -19,8 +19,6 @@ export const ageGroupOptions: Option[] = [
 export const genderOptions: Option[] = [
   { label: "Male" },
   { label: "Female" },
-  { label: "Non-binary" },
-  { label: "Prefer not to specify" },
 ]
 
 // Symptom options based on the disease database
